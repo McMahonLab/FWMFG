@@ -7,7 +7,7 @@ README
 
 This is the README file for distribution of the freshwater 16S rRNA gene sequence database curated by the McMahon-Bertilsson research groups.  The ARB databases are useful for those who want to insert new sequences into high-quality trees with established FW taxonomy, or to extract a region of the alignment to classify amplicon tag sequences. The trainingset files are useful for classifying amplicons or metagenomic reads that contain 16S genes.  They have been vetted in both mothur and QIIME.
 
-The following files have been posted to this Dropbox folder:
+The following files have been posted to this Gihub repository:
 
 (updates added so that the most recent one is at the top)
 
@@ -113,7 +113,7 @@ R. J. Newton, S. E. Jones, A. Eiler, K. D. McMahon, S. Bertilsson. (2011) "A Gui
 
 ###########################################################################
 
-Updated by Katherine (Trina) McMahon - 28 September 2011
+Updated by Katherine (Trina) McMahon - 14 September 2014
 University of Wisconsin - Madison
 Departments of Civil and Environmental Engineering and Bacteriology
 tmcmahon@engr.wisc.edu

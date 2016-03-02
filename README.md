@@ -10,6 +10,14 @@ This is the README file for distribution of the freshwater 16S rRNA gene sequenc
 The following files have been posted to this Gihub repository:
 
 (updates added so that the most recent one is at the top)
+__
+(updated February 2016)
+
+FWonly_11Feb2016_1452_ready.fasta
+Only FW sequences. Contains 1452 sequences. Added and curated ~300 sequences from Ryan Newton.
+
+FWonly_11Feb2016_1452.taxonomy
+Only FW sequences. Contains 1452 sequence IDs. Some typos and inconsistencies have been fixed.
 
 --
 (updated 19 July 2012)

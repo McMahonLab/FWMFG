@@ -13,7 +13,7 @@ The following files have been posted to this Gihub repository:
 __
 (updated February 2016)
 
-Removed the .doc file that had the original workflow from Ben Crary. See here for new and better workflow:
+Ignore the .doc file that had the original workflow from Ben Crary. See here for new and better workflow:
 https://github.com/McMahonLab/16STaxAss
 
 FWonly_11Feb2016_1452_ready.fasta

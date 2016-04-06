@@ -10,8 +10,7 @@ This is the README file for distribution of the freshwater 16S rRNA gene sequenc
 The following files have been posted to this Gihub repository:
 
 (updates added so that the most recent one is at the top)
-__
-
+--
 (updated February 2016)
 
 See here for new and better workflow:

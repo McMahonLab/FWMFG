@@ -5,14 +5,17 @@ Freshwater microbial field guide
 
 README 
 
-This is the README file for distribution of the freshwater 16S rRNA gene sequence database curated by the McMahon-Bertilsson research groups.  The ARB databases are useful for those who want to insert new sequences into high-quality trees with established freshwater taxonomy.  
+This is the README file for distribution of the arb files of the freshwater 16S rRNA gene sequence database curated by the McMahon-Bertilsson research groups.  The ARB databases are useful for those who want to insert new sequences into high-quality trees with established freshwater taxonomy.  
 
-For those who want trainingset files to classify amplicons or metagenomic reads that contain 16S genes, we recommend using the Freshwater Trainingset (FreshTrain) files available in the TaxAss repo: https://github.com/McMahonLab/TaxAss. These FreshTrain files are based on the arb files contained in this repo, but have been formatted, updated, and vetted for taxonomy assignment. The TaxAss repo also includes a workflow for assigning taxonomy using the FreshTrain files. More information on why the TaxAss workflow is necessary is available in our [msphere paper](https://msphere.asm.org/content/3/5/e00327-18). 
+For those who want trainingset files to classify amplicons or metagenomic reads that contain 16S genes, we recommend using the Freshwater Trainingset (FreshTrain) files available in the TaxAss repo: https://github.com/McMahonLab/TaxAss. These FreshTrain files are based on the arb files contained in this repo, but have been formatted, updated, and vetted for taxonomy assignment. The TaxAss repo also includes a workflow for assigning taxonomy using the FreshTrain files. More information on the TaxAss workflow is available in our [msphere paper](https://msphere.asm.org/content/3/5/e00327-18). 
 
+<br>
 The following files have been posted to this Gihub repository:
 
 (updates added so that the most recent one is at the top)
---
+
+______
+
 (updated February 2016)
 
 See here for new and better workflow:
@@ -24,7 +27,8 @@ Only FW sequences. Contains 1452 sequences. Added and curated ~300 sequences fro
 FWonly_11Feb2016_1452.taxonomy
 Only FW sequences. Contains 1452 sequence IDs. Some typos and inconsistencies have been fixed.
 
---
+______
+
 (updated 19 July 2012)
 
 FW_trainingset_MMBR_strict_12July12.fasta
@@ -33,8 +37,8 @@ Only FW sequences, derived from 28Dec11 version. Contains 1148 sequences. Added 
 FW_trainingset_MMBR_strict_12July12.taxonomy
 Taxonomy file that goes with FW_trainingset_MMBR_strict_12July12.fasta. Note that I had to modify slightly to make it compatible with QIIME (removing extra spaces).
 
+______
 
---
 (updated 20 January 2012)
 
 SSU_rRNA_FWonly_27Dec11_todistribute.arb - 11587 sequences
@@ -50,7 +54,8 @@ I am not uploading a concatenated FW-GG trainingset right now because my group h
 
 To make things even more complicated, greengenes just released a new trainingset.  Byron Crump says there are some bugs (sequences not in the taxonomy and taxonomies not represented in the sequences), so we haven't used it yet. I also prefer to work with the 97%-otu version, which doesn't seem to be availble yet for the new release. I recommend that you watch the GG website closely for updates.  I'll try to also!
 
---
+______
+
 (updated 28 September 2011)
 
 SSU_rRNA_FWonly_9Sept11_todistribute.arb - 11587 sequences
@@ -68,7 +73,8 @@ Combined set of FW sequences (FW_trainingset_MMBR_strict_9Sept11.fasta) plus the
 FWGG_trainingset_MMBR_strict_9Sept11.taxonomy
 Taxonomy file that goes with FWGG_trainingset_MMBR_strict_9Sept11.fasta
 
---
+______
+
 (updated 3 Aug 2011)
 
 SSU_rRNA_FW_3Aug11_todistribute.arb  -  28546 sequences
@@ -111,7 +117,7 @@ FWGG_trainingset_July11.taxonomy
 Taxonomy file that goes with FWGG_trainingset_July11.fasta
 
 
-
+______
 
 If you find any inconsistencies or mistakes, please email Trina (contact info below).
 
@@ -123,6 +129,10 @@ The vast majority of work in preparing this database was done by Dr. Ryan Newton
 If you use this database, please cite this paper:
 
 [R. J. Newton, S. E. Jones, A. Eiler, K. D. McMahon, S. Bertilsson. (2011) "A Guide to the natural history of freshwater lake bacteria". Microbiology and Molecular Biology Reviews 75(1):14-49.](https://mmbr.asm.org/content/75/1/14.full) 
+
+If you are assigning taxonomy with this database, please use the versions available at https://github.com/McMahonLab/TaxAss/tree/master/FreshTrain-files and also cite this paper:
+
+[R. R. Rohwer, J. J. Hamilton, R.J. Newton, K. D. McMahon. (2018) "TaxAss: Leveraging a Custom Freshwater Database Achieves Fine-Scale Taxonomic Resolution". mSphere 3:e00327-18.](https://msphere.asm.org/content/3/5/e00327-18) 
 
 ###########################################################################
 

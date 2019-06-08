@@ -5,7 +5,9 @@ Freshwater microbial field guide
 
 README 
 
-This is the README file for distribution of the freshwater 16S rRNA gene sequence database curated by the McMahon-Bertilsson research groups.  The ARB databases are useful for those who want to insert new sequences into high-quality trees with established FW taxonomy, or to extract a region of the alignment to classify amplicon tag sequences. The trainingset files are useful for classifying amplicons or metagenomic reads that contain 16S genes.  They have been vetted in both mothur and QIIME.
+This is the README file for distribution of the freshwater 16S rRNA gene sequence database curated by the McMahon-Bertilsson research groups.  The ARB databases are useful for those who want to insert new sequences into high-quality trees with established freshwater taxonomy.  
+
+For those who want trainingset files to classify amplicons or metagenomic reads that contain 16S genes, we recommend using the Freshwater Trainingset (FreshTrain) files available in the TaxAss repo: https://github.com/McMahonLab/TaxAss. These FreshTrain files are based on the arb files contained in this repo, but have been formatted, updated, and vetted for taxonomy assignment. The TaxAss repo also includes a workflow for assigning taxonomy using the FreshTrain files. More information on why the TaxAss workflow is necessary is available in our [msphere paper](https://msphere.asm.org/content/3/5/e00327-18). 
 
 The following files have been posted to this Gihub repository:
 
@@ -14,7 +16,7 @@ The following files have been posted to this Gihub repository:
 (updated February 2016)
 
 See here for new and better workflow:
-https://github.com/McMahonLab/16STaxAss
+https://github.com/McMahonLab/TaxAss
 
 FWonly_11Feb2016_1452_ready.fasta
 Only FW sequences. Contains 1452 sequences. Added and curated ~300 sequences from Ryan Newton.
@@ -118,9 +120,9 @@ The vast majority of work in preparing this database was done by Dr. Ryan Newton
 
 ###########################################################################
 
-If you use this database and/or the training sets for 16S rRNA sequence classifications, please cite this paper:
+If you use this database, please cite this paper:
 
-R. J. Newton, S. E. Jones, A. Eiler, K. D. McMahon, S. Bertilsson. (2011) "A Guide to the natural history of freshwater lake bacteria". Microbiology and Molecular Biology Reviews 75(1):14-49. 
+[R. J. Newton, S. E. Jones, A. Eiler, K. D. McMahon, S. Bertilsson. (2011) "A Guide to the natural history of freshwater lake bacteria". Microbiology and Molecular Biology Reviews 75(1):14-49.](https://mmbr.asm.org/content/75/1/14.full) 
 
 ###########################################################################
 
